@@ -1,0 +1,19 @@
+:root {
+  --accent-3: rgb(147, 40, 173);
+}
+
+#photo-1:hover ~ .big-screen {
+  background-image: url(../../images/priyam/one.jpg);
+}
+
+#photo-2:hover ~ .big-screen {
+  background-image: url(../../images/priyam/two.jpg);
+}
+
+#photo-3:hover ~ .big-screen {
+  background-image: url(../../images/priyam/three.jpg);
+}
+
+#photo-4:hover ~ .big-screen {
+  background-image: url(../../images/priyam/four.jpg);
+}

@@ -3,17 +3,17 @@
 }
 
 header {
-  height: 100vh;
+  height: 90vh;
+  margin-bottom: 10vh;
   padding: 0 3vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
 
 header .wrapper {
-  height: 90vh;
   width: 70vw;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@ header .para-wrapper {
 header .para-wrapper p {
   margin: 0;
   opacity: 0.7;
-  font-size: 0.9em;
+  font-size: clamp(0.7em, 2vw, 0.9em);
 }
 
 main {
@@ -117,6 +117,7 @@ footer {
   }
 
   header {
+    height: 100vh;
     flex: 1.5;
     justify-content: center;
     text-align: left;

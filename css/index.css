@@ -13,7 +13,7 @@ header {
 }
 
 header .wrapper {
-  height: 100vh;
+  height: 90vh;
   width: 70vw;
   display: flex;
   flex-direction: column;
@@ -123,6 +123,7 @@ footer {
   }
 
   header .wrapper {
+    height: 100vh;
     width: auto;
   }
 
